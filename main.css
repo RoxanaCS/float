@@ -1,0 +1,33 @@
+.contenedor{
+  background: red;
+  border: 1px solid blue;
+  overflow: hidden; /*para evitar que se colpase*/
+}
+
+h1{
+  text-align: center;
+}
+li{
+  float: left;
+  height: 40px;
+  margin: 20px;
+}
+.img1{
+  float: left; /*se aplica a las imagenes, iconos, menu, etc.. no al parrafo en si mismo */
+  margin: 0em 2em;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.img2{
+  float: right;
+  margin: 0em 2em;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+.fa-bug{
+  color: red;
+  font-size: 100px;
+}
